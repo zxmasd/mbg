@@ -22,6 +22,7 @@ public class MbgApplicationTests {
        // admin.setId("1");
         Admin admin = adminMapper.selectByPrimaryKey("1");
         System.out.println(admin);
+        System.out.println("lalall");
 
     }
 
